@@ -4,7 +4,7 @@ using System.Collections.Immutable;
 using System.Globalization;
 using System.Xml.Linq;
 // alphabetical order
-public class Program
+public class Program1
 {
     public static void Main(string[] args)
     {
@@ -25,14 +25,16 @@ public class Program
             count++;
 
         }
-        int j = 1;
-        Array.Sort(arr1);
-        Console.WriteLine("\n Passengers in alphabetical order\n");
-        foreach (string i in arr1)
-        {  
-            Console.WriteLine("Passenger " + j + " : " + i);
-            j++;
-        }
+
+        // Sorted list
+        //int j = 1;
+        //Array.Sort(arr1);
+        //Console.WriteLine("\n Passengers in alphabetical order\n");
+        //foreach (string i in arr1)
+        //{  
+        //    Console.WriteLine("Passenger " + j + " : " + i);
+        //    j++;
+        //}
 
         //for (int i = 0; i < arr1.Length; i++)
         //{
@@ -52,6 +54,8 @@ public class Program
         //    Console.WriteLine(arr2[i]);
 
         //}
+
+
 
 
     }
